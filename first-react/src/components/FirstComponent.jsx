@@ -17,22 +17,7 @@ const FirstComponent = () => {
 
     return(
         <>
-            <h1>
-                Here is some things about me
-            </h1>
-            <h2>
-                My name is {name}
-            </h2>
-            <h3>
-                My favourite colour is {favColour}    
-            </h3>
-            <h3>
-                My favourite number is {favNumber}
-            </h3>
-            <h4>
-                I also play RL from time to time
-            </h4>
-            <img src="https://wallpaperaccess.com/full/1335863.jpg" alt="dominus" width='100%'/>  
+            
         </>
 
     )
