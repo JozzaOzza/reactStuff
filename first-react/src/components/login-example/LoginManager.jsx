@@ -1,4 +1,5 @@
 import { useState } from "react";
+import DisplayComp from "./DisplayComp";
 import FormComp from "./FormComp";
 
 const LoginManager = () => {
@@ -22,8 +23,7 @@ const LoginManager = () => {
     return (
         <>
             <FormComp setUsername={setUsername} setPassword={setPassword}></FormComp>
-            <h2> <div id="usernameHeader" style={{visibility: "hidden"}}> Your username is: <div id="usernameDiv"> {username} </div></div></h2>
-            <h2> <div id="passwordHeader" style={{visibility: "hidden"}}> Your password is: <div id="passwordDiv"> {password} </div></div></h2>
+            <DisplayComp username={username} password={password} />
         </>
     );
 }

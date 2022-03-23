@@ -22,7 +22,7 @@ const FormComp = (setUsername, setPassword) => {
                     placeholder='please enter password' onChange={(event) => tempPass = (event.target.value)} /> <br />
             </p>
             <p>
-                <input type="button" value="Display" onClick={loginFunc(tempUser, tempPass)} />
+                <input type="button" value="Display" onClick={() => loginFunc(tempUser, tempPass)} />
     
             </p>
         </>
