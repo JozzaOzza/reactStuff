@@ -8,17 +8,17 @@ const PokemonHandler = () => {
 
     return (
         <>
-            <ol>
+
 
             {PokeData.map((move, key) => {
                 return (
-                   <li>
-                       <Pokemon data={move} />
-                   </li> 
+
+                    <Pokemon data={move} />
+
                 )
             })}
 
-            </ol>
+
         </>
     );
 }

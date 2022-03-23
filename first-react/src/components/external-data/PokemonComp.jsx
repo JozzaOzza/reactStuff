@@ -6,7 +6,7 @@ const Pokemon = ({ data }) => {
         <>
 
             <h2>
-                Name: {data.ename}
+               {data.id} Name: {data.ename}
             </h2>
             <h3>
                 Power: {data.power}
