@@ -6,12 +6,13 @@ import Contact from './components/using-react-router/02-contact-us';
 import Profile from './components/using-react-router/03-profile';
 import NavBar from './components/using-react-router/05-nav-bar';
 import GetRequest from './components/making-requests/GetRequestWithAxios';
+import AllRequests from './components/making-requests/AllRequestsComp';
 
 function App() {
   return (
     <div className="App">
       {/* Put in the manager import here */}
-      <GetRequest></GetRequest>
+      <AllRequests/>
     </div>
   );
 }
